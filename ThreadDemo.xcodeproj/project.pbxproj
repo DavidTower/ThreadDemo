@@ -13,6 +13,7 @@
 		00B16AF420FEDB8B0031B857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B16AF320FEDB8B0031B857 /* Assets.xcassets */; };
 		00B16AF720FEDB8B0031B857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B16AF520FEDB8B0031B857 /* LaunchScreen.storyboard */; };
 		00B16AFA20FEDB8B0031B857 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B16AF920FEDB8B0031B857 /* main.m */; };
+		00B16B0320FEDBB20031B857 /* NSThreadDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B16B0120FEDBB20031B857 /* NSThreadDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		00B16AF620FEDB8B0031B857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00B16AF820FEDB8B0031B857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00B16AF920FEDB8B0031B857 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00B16B0120FEDBB20031B857 /* NSThreadDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadDemo.m; sourceTree = "<group>"; };
+		00B16B0220FEDBB20031B857 /* NSThreadDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadDemo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		00B16AE920FEDB8B0031B857 /* ThreadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				00B16B0020FEDBB20031B857 /* NSThreadDemo */,
 				00B16AEA20FEDB8B0031B857 /* AppDelegate.h */,
 				00B16AEB20FEDB8B0031B857 /* AppDelegate.m */,
 				00B16AED20FEDB8B0031B857 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				00B16AF920FEDB8B0031B857 /* main.m */,
 			);
 			path = ThreadDemo;
+			sourceTree = "<group>";
+		};
+		00B16B0020FEDBB20031B857 /* NSThreadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				00B16B0120FEDBB20031B857 /* NSThreadDemo.m */,
+				00B16B0220FEDBB20031B857 /* NSThreadDemo.h */,
+			);
+			path = NSThreadDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +158,7 @@
 				00B16AEF20FEDB8B0031B857 /* ViewController.m in Sources */,
 				00B16AFA20FEDB8B0031B857 /* main.m in Sources */,
 				00B16AEC20FEDB8B0031B857 /* AppDelegate.m in Sources */,
+				00B16B0320FEDBB20031B857 /* NSThreadDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
