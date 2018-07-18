@@ -14,6 +14,7 @@
 		00B16AF720FEDB8B0031B857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B16AF520FEDB8B0031B857 /* LaunchScreen.storyboard */; };
 		00B16AFA20FEDB8B0031B857 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B16AF920FEDB8B0031B857 /* main.m */; };
 		00B16B0A20FEF0730031B857 /* NSThreadDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B16B0820FEF0730031B857 /* NSThreadDemo.m */; };
+		00B16B0E20FF14C80031B857 /* GCDDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B16B0D20FF14C80031B857 /* GCDDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		00B16AF920FEDB8B0031B857 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00B16B0820FEF0730031B857 /* NSThreadDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadDemo.m; sourceTree = "<group>"; };
 		00B16B0920FEF0730031B857 /* NSThreadDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadDemo.h; sourceTree = "<group>"; };
+		00B16B0C20FF14C80031B857 /* GCDDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDDemo.h; sourceTree = "<group>"; };
+		00B16B0D20FF14C80031B857 /* GCDDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		00B16AE920FEDB8B0031B857 /* ThreadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				00B16B0B20FF14B30031B857 /* GCDDemo */,
 				00B16B0720FEF0730031B857 /* NSThreadDemo */,
 				00B16AEA20FEDB8B0031B857 /* AppDelegate.h */,
 				00B16AEB20FEDB8B0031B857 /* AppDelegate.m */,
@@ -82,6 +86,15 @@
 				00B16B0920FEF0730031B857 /* NSThreadDemo.h */,
 			);
 			path = NSThreadDemo;
+			sourceTree = "<group>";
+		};
+		00B16B0B20FF14B30031B857 /* GCDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				00B16B0C20FF14C80031B857 /* GCDDemo.h */,
+				00B16B0D20FF14C80031B857 /* GCDDemo.m */,
+			);
+			path = GCDDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +171,7 @@
 				00B16AEF20FEDB8B0031B857 /* ViewController.m in Sources */,
 				00B16AFA20FEDB8B0031B857 /* main.m in Sources */,
 				00B16AEC20FEDB8B0031B857 /* AppDelegate.m in Sources */,
+				00B16B0E20FF14C80031B857 /* GCDDemo.m in Sources */,
 				00B16B0A20FEF0730031B857 /* NSThreadDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
