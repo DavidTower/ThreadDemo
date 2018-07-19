@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "NSThreadDemo.h"
 #import "GCDDemo.h"
+#import "NSOperationDemo.h"
 
 @interface ViewController ()
 
@@ -22,8 +23,12 @@
 //    [threadDemo createFourThread_safe_model];
     
     //GCD
-    GCDDemo *gcdDemo = [[GCDDemo alloc] init];
-    [gcdDemo createGCDThread];
+//    GCDDemo *gcdDemo = [[GCDDemo alloc] init];
+//    [gcdDemo createGCDThread];
+    
+//    NSOperation
+    NSOperationDemo *operationDemo = [NSOperationDemo new];
+    [operationDemo createOperation];
 }
 
 
