@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface GCDDemo : NSObject
-
+- (void)createGCDThread;
 @end

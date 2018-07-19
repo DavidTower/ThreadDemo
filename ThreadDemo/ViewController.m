@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "NSThreadDemo.h"
+#import "GCDDemo.h"
 
 @interface ViewController ()
 
@@ -17,8 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSThreadDemo *threadDemo = [[NSThreadDemo alloc] init];
-    [threadDemo createFourThread_safe_model];
+//    NSThreadDemo *threadDemo = [[NSThreadDemo alloc] init];
+//    [threadDemo createFourThread_safe_model];
+    
+    //GCD
+    GCDDemo *gcdDemo = [[GCDDemo alloc] init];
+    [gcdDemo createGCDThread];
 }
 
 
